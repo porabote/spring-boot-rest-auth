@@ -1,0 +1,1 @@
+SELECT name, surname FROM api.persons WHERE city_of_living = 'MOSCOW';
