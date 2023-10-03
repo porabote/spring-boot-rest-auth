@@ -5,5 +5,6 @@ CREATE TABLE api.orders
     customer_id int,
     product_name varchar(100),
     amount int,
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    FOREIGN KEY (customer_id) REFERENCES customers(id));
 );
