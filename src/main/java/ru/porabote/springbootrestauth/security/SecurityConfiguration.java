@@ -1,4 +1,4 @@
-package ru.porabote;
+package ru.porabote.springbootrestauth.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
